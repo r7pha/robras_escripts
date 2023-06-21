@@ -1,5 +1,5 @@
 local plr = game:GetService("Players").LocalPlayer
-
+print("LocalPlayer Found")
 function RunCustomAnimation(Char)
 	if Char:WaitForChild("Animate") ~= nil then
 		Char.Animate.Disabled = true
