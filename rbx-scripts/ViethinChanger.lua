@@ -1,22 +1,15 @@
--- << Services >> --
 local this = {}
 local ReplicatedStorage = game:GetService('ReplicatedStorage');
 local PlayersService = game:GetService('Players');
-
--- << Variables >> --
 local LP = PlayersService.LocalPlayer;
 local Character = LP.Character
 local Viethin_KEY = _G.ViethinKey or nil;
-
--- << Config Default >> --
 local DefaultTable = { -- You can change this.
     BoolValue = true;
     StringValue = string.rep('Vortex passou por aqui | https://discord.gg/hHmaK5mASh', 5);
     NumberValue = -math.huge;
     IntValue = -math.huge;
 }
-
--- << Functions >> --
 local function FindRemote(Name, Class)
     for i,v in pairs(ReplicatedStorage:GetDescendants()) do
         if v:IsA(Class) and v.Name == Name then
@@ -33,18 +26,10 @@ local function CreateHint(Text, Timer)
     task.wait(Timer)
     Hint:Destroy()
 end
-
--- << Main >> --
 local Remotes = {
     GetKey = FindRemote('SendKey', 'RemoteEvent');
     Change = FindRemote('ChangeVal', 'RemoteEvent')
 }
-if not Remotes['GetKey'] or not Remotes['Change'] then
-    CreateHint('Viethin não encontrado, se foi um erro por favor encontre contato com Zv_yz#0847', 7)
-    return
-end
-
--- << Get key and reset character >> --
 if not Viethin_KEY then
     Remotes.GetKey.OnClientEvent:Connect(function(Key)
         _G.ViethinKey = Key;
@@ -53,8 +38,6 @@ if not Viethin_KEY then
     task.wait(.5)
     Character:BreakJoints()
 end
-
--- << Main >> --
 function this:Change(Table)
     local Table = Table or DefaultTable
     for i,v in next, DefaultTable do
