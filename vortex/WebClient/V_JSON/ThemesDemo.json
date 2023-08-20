@@ -1,34 +1,22 @@
 [
   {
-    "filename": "Abyss.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/Abyss.json"
+    "filename": "GoofyMountain.json",
+    "themeurl": "https://raw.githubusercontent.com/rphzz/rhino/main/vortex/WebClient/V_JSON/Themes/Montanha.json"
   },
   {
-    "filename": "AestheticMountain.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/AestheticMountain.json"
-  },
-  {
-    "filename": "BlackHole.json",
+    "filename": "BuracoNegro.json",
     "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/BlackHole.json"
   },
   {
-    "filename": "DarkTheme.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/DarkTheme.json"
+    "filename": "PurpleAesthetic.json",
+    "themeurl": "https://raw.githubusercontent.com/rphzz/rhino/main/vortex/WebClient/V_JSON/Themes/PurpleAesthetic.json"
   },
   {
-    "filename": "Grey.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/Grey.json"
+    "filename": "PurpleMountain.json",
+    "themeurl": "https://raw.githubusercontent.com/rphzz/rhino/main/vortex/WebClient/V_JSON/Themes/PurpleMountain.json"
   },
   {
-    "filename": "PurpleBlue.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/PurpleBlue.json"
-  },
-  {
-    "filename": "ThemeDemo.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/ThemeDemo.json"
-  },
-  {
-    "filename": "XiJinping.json",
-    "themeurl": "https://raw.githubusercontent.com/MainDabRblx/ProjectDab/master/UIThemes/XiJinping.json"
+    "filename": "BuracoNegro.json",
+    "themeurl": "https://raw.githubusercontent.com/rphzz/rhino/main/vortex/WebClient/V_JSON/Themes/BuracoNegro.json"
   }
 ]
