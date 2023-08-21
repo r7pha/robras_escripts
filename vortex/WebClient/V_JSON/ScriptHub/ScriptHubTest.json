@@ -1,4 +1,4 @@
-{
+[
         {
             "Name": "Infinite Yield",
             "Url": "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",
@@ -527,4 +527,4 @@
             "Description": "OverPowered GUI, #1, Lots Of Features!",
             "ThumbNail": "https://i.imgur.com/WwNbYL6.png"
         }
-}
+]
